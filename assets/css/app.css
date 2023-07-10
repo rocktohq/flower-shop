@@ -29,20 +29,23 @@ a:hover {
     margin: 0px 10%;
 }
 
-.btn {
+.btn, .btn-top {
     background-color: rgba(229,84,115,255);
     color: #fff;
     border: none;
     padding: 5px 15px;
     font-size: 16px;
-    font-weight: 700;
     cursor: pointer;
     text-align: center;
     border-radius: 5px;
 }
 
-.btn:hover {
-    background-color: rgba(229,84,115,255);
+.btn {
+    padding: 10px 20px;
+}
+
+.btn:hover, .btn-top:hover {
+    background-color: rgba(229,84,115, 0.8);
 }
 
 .highlight {
@@ -91,11 +94,29 @@ nav li .dropdown {
     display: none;
     background-color: rgba(244,244,244,255);
     position: absolute;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    box-shadow: 5px 5px 10px #00000054;
+    border-top: 1px solid #0000001a;
+    margin-top: 10px;
 }
 
 nav li:hover .dropdown {
     display: block;
     border-top: 1px solid #0000001a;
+}
+
+
+/* ========================== MAIN SECTION ========================== */
+.top-section {
+    margin-bottom: 100px;
+}
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flower-img img {
+    width: 400px;
 }
 
