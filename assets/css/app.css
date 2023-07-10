@@ -9,3 +9,93 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* ========================== EXTRA CLASSES ========================== */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #000000b7;
+}
+
+.container {
+    margin: 0px 10%;
+}
+
+.btn {
+    background-color: rgba(229,84,115,255);
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(229,84,115,255);
+}
+
+.highlight {
+    color: rgba(229,84,115,255);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.bg-pink {
+    background-color: rgba(252,238,241,255);
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
+
+/* ========================== HEADER SECTION ========================== */
+.header-main {
+    /* background-color: rgba(244,244,244,255); */
+    border-bottom: 1px solid #0000001a;
+}
+
+nav .logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav .menu-items {
+    display: flex;
+    gap: 20px;
+}
+
+nav li .dropdown {
+    display: none;
+    background-color: rgba(244,244,244,255);
+    position: absolute;
+    padding: 10px 20px;
+}
+
+nav li:hover .dropdown {
+    display: block;
+    border-top: 1px solid #0000001a;
+}
+
