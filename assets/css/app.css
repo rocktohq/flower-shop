@@ -292,10 +292,11 @@ nav li:hover .dropdown {
     width: 100%;
     margin-bottom: 100px;
     border-radius: 5px;
-    background-image: url("https://rocktohq.github.io/flower-shop/assets/img/Rectangle-9.png");
-    background-color: #f19eb0;
+    background-image: url("./assets/img/Rectangle-9.png");
+    background-color: #f4f4f4;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     display: flex;
     flex-direction: column;
