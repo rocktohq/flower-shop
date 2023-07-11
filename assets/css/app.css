@@ -121,16 +121,29 @@ nav li:hover .dropdown {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 200px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.flower-img {
+    width: 50%;
+    height: 400px;
+    padding-top: 30px;
 }
 
 .flower-img img {
-    width: 400px;
+    height: 100%;
 }
 
-.featured {
-    margin: 3rem 0px;
+.hero-text > h1, .hero-text > p {
+    margin-bottom: 20px;
 }
 
+
+/* FEATURED */
 .featured .featured-text {
     text-align: center;
 }
@@ -138,10 +151,11 @@ nav li:hover .dropdown {
 .featured {
     margin-bottom: 100px;
 }
+
 .featured-flowers {
     margin-top: 30px;
     display: flex;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -181,6 +195,8 @@ nav li:hover .dropdown {
     color: rgb(77, 77, 77);
 }
 
+
+/* SERVICES */
 .services {
     margin-bottom: 100px;
 }
@@ -199,6 +215,8 @@ nav li:hover .dropdown {
     text-align: center;
 }
 
+
+/* DEALS */
 .hot-deals {
     background-color: #fdf6f8;
     margin-bottom: 100px;
@@ -206,25 +224,32 @@ nav li:hover .dropdown {
 
 .deal {
     display: flex;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-evenly;
+    gap: 50px;
     align-items: center;
     text-align: center;
     padding: 50px;
 }
 
 .deal-info {
-    margin: 0 10%;
+    width: 50%;
 }
 
 .deal-info > h1, .deal-info > p {
     margin-bottom: 20px;
 }
 
-.deal-img img {
+.deal-img {
+    width: 50%;
     height: 250px;
 }
 
+.deal-img img {
+    height: 100%;
+}
+
+
+/* SOCIAL */
 .social {
     margin-bottom: 100px;
 }
@@ -255,6 +280,8 @@ nav li:hover .dropdown {
     height: 100%;
 }
 
+
+/* NEWSLETTER */
 .subscribe {
     background-image: url("/assets/img/Rectangle-9.png");
     background-repeat: no-repeat;
