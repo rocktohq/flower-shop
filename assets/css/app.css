@@ -288,20 +288,18 @@ nav li:hover .dropdown {
 
 /* NEWSLETTER */
 .subscribe {
-    /* height: 300px;
+    height: 300px;
     width: 100%;
     margin-bottom: 100px;
     border-radius: 5px;
-    background-image: url("/Rectangle-9.png");
+    background-image: url("https://rocktohq.github.io/flower-shop/assets/img/Rectangle-9.png");
     background-color: #f19eb0;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; */
-
-    background-image: url("/Rectangle-9.png");
+    justify-content: center;
 }
 
 .sub-form {
