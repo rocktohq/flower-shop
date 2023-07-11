@@ -288,7 +288,7 @@ nav li:hover .dropdown {
 
 /* NEWSLETTER */
 .subscribe {
-    height: 300px;
+    /* height: 300px;
     width: 100%;
     margin-bottom: 100px;
     border-radius: 5px;
@@ -299,7 +299,9 @@ nav li:hover .dropdown {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
+
+    background-image: url("/Rectangle-9.png");
 }
 
 .sub-form {
