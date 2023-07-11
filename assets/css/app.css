@@ -292,7 +292,8 @@ nav li:hover .dropdown {
     width: 100%;
     margin-bottom: 100px;
     border-radius: 5px;
-    background-image: url("/assets/img/Flower-01.png");
+    background-image: url("/Rectangle-9.png");
+    background-color: #f19eb0;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
