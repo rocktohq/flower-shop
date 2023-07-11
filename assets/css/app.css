@@ -30,7 +30,7 @@ a:hover {
 }
 
 .btn, .btn-top {
-    background-color: rgba(229, 84, 115, 1);
+    background-color: #e55473;
     color: #fff;
     border: none;
     padding: 5px 15px;
@@ -45,17 +45,17 @@ a:hover {
 }
 
 .btn:hover, .btn-top:hover {
-    background-color: rgba(229, 84, 115, 0.8);
+    background-color: #e4375c;
 }
 
 .highlight {
-    color: rgba(229, 84, 115, 1);
+    color: #e55473;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
 .bg-pink {
-    background-color: rgba(252, 238, 241, 1);
+    background-color: #fceef1;
 }
 
 .text-gray {
@@ -68,7 +68,7 @@ a:hover {
 
 
 /* ========================== HEADER SECTION ========================== */
-.header-main {
+#header-main {
     border-bottom: 1px solid #0000001a;
 }
 
@@ -81,7 +81,7 @@ a:hover {
     font-weight: 800;
 }
 
-.nav-main {
+#nav-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +95,7 @@ nav .menu-items {
 
 nav li .dropdown {
     display: none;
-    background-color: rgba(244, 244, 244, 1);
+    background-color: #f4f4f4;
     position: absolute;
     padding: 10px 30px 0 30px;
     box-shadow: 5px 5px 10px #00000054;
@@ -126,6 +126,11 @@ nav li:hover .dropdown {
 
 .hero-text {
     width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.8rem;
+    color: #272727;
 }
 
 .flower-img {
@@ -178,15 +183,15 @@ nav li:hover .dropdown {
 }
 
 .flower__1 {
-    background-color: rgba(241, 221, 231, 1);
+    background-color: #f1dde7;
 }
 
 .flower__2 {
-    background-color: rgba(217, 239, 240, 1);
+    background-color: #d9eff0;
 }
 
 .flower__3 {
-    background-color: rgba(227, 235, 219, 1);
+    background-color: #e3ebdb;
 }
 
 .flower-link {
@@ -206,7 +211,7 @@ nav li:hover .dropdown {
     gap: 20px;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(244, 244, 244, 1);
+    background-color: #f4f4f4;
     padding: 50px 0px;
     border-radius: 5px;
 }
@@ -283,12 +288,13 @@ nav li:hover .dropdown {
 
 /* NEWSLETTER */
 .subscribe {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 100px;
+    border-radius: 5px;
     background-image: url("/assets/img/Rectangle-9.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
-    margin-bottom: 100px;
-    border-radius: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -306,17 +312,17 @@ nav li:hover .dropdown {
     font-size: 16px;
     width: 40%;
     margin-right: 10px;
+    color: gray;
 }
 
 .sub-form input:hover, .sub-form input:focus, .sub-form input:active {
     border: none;
     outline: none;
-    color: gray;
 }
 
 
 /* ========================== FOOTER AREA ========================== */
-footer {
+#footer-main {
     background-color: #111010;
     padding: 100px 0;
     color: #fff;
