@@ -97,7 +97,7 @@ nav li .dropdown {
     display: none;
     background-color: rgba(244, 244, 244, 1);
     position: absolute;
-    padding: 10px 30px;
+    padding: 10px 30px 0 30px;
     box-shadow: 5px 5px 10px #00000054;
     border-top: 1px solid #0000001a;
     margin-top: 10px;
@@ -109,7 +109,7 @@ nav li:hover .dropdown {
 }
 
 .dropdown li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* ========================== MAIN SECTION ========================== */
