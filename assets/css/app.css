@@ -374,11 +374,6 @@ nav li:hover .dropdown {
     color: gray;
 }
 
-.sub-form input:hover, .sub-form input:focus, .sub-form input:active {
-    border: none;
-    outline: none;
-}
-
 
 /* ========================== FOOTER AREA ========================== */
 #footer-main {
